@@ -29,7 +29,7 @@ class VogaisTest {
     }
 
     @Test
-    void vogaisMaísculas() {
+    void vogaisMaisculas() {
         Vogais vogais = new Vogais();
         assertEquals(22, vogais.contarVogais("AÁÀÂÃ EÉÊÈ IÍÌÎ OÓÒÔÕ UÚÙÛ"));
     }
