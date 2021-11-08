@@ -15,7 +15,7 @@ public class Vogais {
      * @return quantidade de caracteres vogais incluídos no texto
      */
     public int contarVogais(String text){
-        //TODO adicionar texto aqui
+        //TODO adicionar solução aqui
         return 0;
     }
 
