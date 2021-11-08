@@ -5,6 +5,7 @@ plugins {
 group 'br.ufrn.imd'
 version '1.0-SNAPSHOT'
 
+
 repositories {
     mavenCentral()
 }
@@ -15,5 +16,6 @@ dependencies {
 }
 
 test {
+    systemProperty "file.encoding", "utf-8"
     useJUnitPlatform()
 }
