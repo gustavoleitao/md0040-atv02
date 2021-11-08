@@ -1,6 +1,6 @@
 ## Atividade
 
-Nesta atividade você deverá criar um programa dado um texto (String), o programa deverá retornar a quantidade de vogais existentes. 
+Nesta atividade você deverá criar um programa que dado um texto (String), deverá retornar a quantidade de vogais existentes. 
 
 Considerar para vogais as seguintes letras e sua variação maiúscula:
 
@@ -26,38 +26,13 @@ public class Vogais {
 
 O resultado deverá ser retornado como inteiro no método contarVogais
 
-### Exemplo 01
+### Exemplos
 
-Entrada: 
-```console
-abc
-```   
-Saída:  
-```console
-1
-```
-
-### Exemplo 02
-
-Entrada:
-```console
-aeiou
-```   
-Saída:
-```console
-5
-```
-
-### Exemplo 02
-
-Entrada:
-```console
-Olá tudo bom?
-```   
-Saída:
-```console
-5
-```
+| Entrada | Saida esperada |
+|---------|----------------|
+| abc     | 1              |
+| aeiou     | 5              |
+| Olá tudo bom?     | 5              |
 
 ## Testes
 
