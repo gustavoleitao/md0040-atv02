@@ -26,8 +26,6 @@ public class Vogais {
 
 O resultado deverá ser retornado como inteiro no método contarVogais
 
-### Exemplos
-
 | Entrada | Saida esperada |
 |---------|----------------|
 | abc     | 1              |
