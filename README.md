@@ -1,16 +1,36 @@
 ## Atividade
 
-Nesta atividade você deverá criar três classes, conforme imagem abaixo e seguindo as seguintes instruções:
+Nesta atividade você deverá criar um programa que dado um texto (String), deverá retornar a quantidade de vogais existentes. 
 
-![Classes](https://i.ibb.co/DMz5T5L/Package-imd.png)
+Considerar para vogais as seguintes letras e sua variação maiúscula:
 
-1. Criar pacote chamado br.ufrn.imd
-2. Criar a classe chamada Person dentro deste pacote
-3. Criar a classe Musician que herda de Person no pacote br.ufrn.imd
-4. Criar a classe GuitarPlayer que derde de Musician no pacote br.ufrn.imd
-5. Criar atributos e métodos, conforme imagem.
+* a, á, à, â, ã, e, é, ê, è, i, í, ì, î, o, ó, ò, ô, õ, u, ú, ù, û
 
-> Atenção utilize exatamente os mesmos nomes para as classes, atributos e métodos da imagem abaixo.
+```java
+public class Vogais {
+
+    /**
+     * Método responsável por contar as vogais de um texto
+     * @param text Texto de entrada
+     * @return quantidade de caracteres vogais incluídos no texto
+     */
+    public int contarVogais(String text){
+        //TODO adicionar solução aqui
+        return 0;
+    }
+
+}
+```
+
+## Exemplos
+
+O resultado deverá ser retornado como inteiro no método contarVogais
+
+| Entrada | Saida esperada |
+|---------|----------------|
+| abc     | 1              |
+| aeiou     | 5              |
+| Olá tudo bom?     | 5              |
 
 ## Testes
 
